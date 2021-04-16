@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*            End of CSS Reset            */
+
+/*                 Setup                  */
+
+/*               Borderbox                */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* clearfix */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+
+/*                  Font                  */
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_semibold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_text.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_thin.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_ultralight.ttf") format("truetype");
+  font-weight: 100;
+}
+
+nav {
+  background-color: black;
+  height: 44px; 
+  display: block;
+}
+
+.container {
+  max-width: 3100px;
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 60%;
+  display: block;
+}
+
+.lista_nav {
+  height: 44px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.elementos_nav {
+  display: inline-block;
+  vertical-align: top;
+  height: 44px;
+  width: 10%;
+}
+
+.container2 {
+  display: block;
+  position: absolute;
+  left: 410px; 
+  top: 50px;
+
+}
+
+.imageniphone {
+  display: inline-block;
+  width: 420px;
+  height:570px;
+  vertical-align: top;
+}
+
+.infoiphone {
+  display: inline-block;
+  width: 400px;
+  vertical-align: middle;
+  font: inherit;
+  position: absolute;
+  left: 480px;
+  top: 200px;
+}
+
+.info1 {
+  text-align: center;
+}
+
+.info2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  letter-spacing: -1px;
+
+}
+
+.lista_hero {
+  list-style-type: none;
+  text-align: center;
+  font-size: 18px;
+  display: block;
+
+}
+
+.elementos_hero1 {
+  display: inline-block;
+  text-align: center;
+  padding: 0 4px; 
+  color: rgb(86, 169, 218);
+  font-size: 20px;
+  margin: 0 6px 12px;
+  cursor:pointer;
+
+}
+
+.elementos_hero2 {
+  display: inline-block;
+  text-align: center;
+  padding: 0 4px; 
+  color: rgb(86, 169, 218);
+  font-size: 20px;
+  margin: 0 6px 12px;
+  cursor:pointer;
+}
+
+.elementos_hero3 {
+  display: inline-block;
+  text-align: center;
+  padding: 0 4px; 
+  color: rgb(86, 169, 218);
+  font-size: 20px;
+  cursor:pointer;
+
+}
+
+#playa, #sf {
+  height: 200px;
+  width: 100%;
+
+}
+
+h1 {
+  font-size:30px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/*               End of Setup             */
