@@ -102,6 +102,18 @@ table {
   font-weight: 100;
 }
 
+/*desarrollo de la web*/
+
+h1 {
+  font-size:30px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*header*/
+
 nav {
   background-color: black;
   height: 44px; 
@@ -122,6 +134,7 @@ nav {
   margin: 0;
   padding: 0;
   display: block;
+  width: 1000px;
 }
 
 .elementos_nav {
@@ -131,12 +144,13 @@ nav {
   width: 10%;
 }
 
+/*hero section*/
+
 .container2 {
   display: block;
-  position: absolute;
+  position: relative;
   left: 410px; 
-  top: 50px;
-
+  top: 10px;
 }
 
 .imageniphone {
@@ -151,8 +165,7 @@ nav {
   width: 400px;
   vertical-align: middle;
   font: inherit;
-  position: absolute;
-  left: 480px;
+  position: relative;
   top: 200px;
 }
 
@@ -167,7 +180,6 @@ nav {
   margin-bottom: 30px;
   margin-top: 10px;
   letter-spacing: -1px;
-
 }
 
 .lista_hero {
@@ -175,7 +187,6 @@ nav {
   text-align: center;
   font-size: 18px;
   display: block;
-
 }
 
 .elementos_hero1 {
@@ -186,7 +197,6 @@ nav {
   font-size: 20px;
   margin: 0 6px 12px;
   cursor:pointer;
-
 }
 
 .elementos_hero2 {
@@ -206,22 +216,113 @@ nav {
   color: rgb(86, 169, 218);
   font-size: 20px;
   cursor:pointer;
-
 }
 
-#playa, #sf {
+/*hero subsection*/
+
+.lista_prod {
+  display: block;
+  position:relative;
+}
+
+.col-3 {
+  display: inline-block;
+  width: 25%;
+  border-right: 2px solid white;
   height: 200px;
-  width: 100%;
+  margin-top: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+#foto1 {
+  background-image: url(./images/watch_large.jpg);
+}
+
+#foto2 {
+  background-image: url(./images/ipad_pro_large.jpg);
+}
+
+#foto3 {
+  background-image: url(./images/accessories_large.jpg);
+}
+
+#foto4 {
+  background-image: url(./images/macbook_large.jpg);
+}
+
+.productos2 {
+  display: block;
+  text-align: center;
+  font-weight: 420px;
+  margin: 22px 0 22px;
+  color:rgb(86, 169, 218);
+}
+
+/*footer subsection*/
+
+footer {
+  background-color:rgb(226, 224, 224);
+  display: block;
+}
+
+.container3 {
+  max-width: 1026px;
+  display: block;
+  font-size: 11.94px;
+  line-height: 1.6;
+  font-weight: 400;
+  letter-spacing: -0.01;
+  position: relative;
+  left: 400px;
 
 }
 
-h1 {
-  font-size:30px;
+.col1,
+.col2,
+.col3,
+.col4,
+.col5 {
+  display: inline-block;
+  width: 20%;
+  padding-top: 20px;
+  vertical-align: top;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+.parrafos {
+  padding-top: 20px;
 }
+
+.ultimo{
+  display: block;
+}
+
+.ultimas {
+  display: inline-block;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.container4{
+  max-width: 1026px;
+  display: block;
+  font-size: 11.94px;
+  line-height: 1.6;
+  font-weight: 400;
+  letter-spacing: -0.01;
+  position: relative;
+  left: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+/*dudas, no se como separar elementos entre ellos, no se como alinear fotos a la izquierda*/
+/*nose como indicar el boton play*/
+/*nose como hacer que los links se decoren en el color azul y se quite subrayado. no funciona text-decoration*/
 
 /*               End of Setup             */
